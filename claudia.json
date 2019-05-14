@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "app-executor",
+    "name": "app",
+    "region": "us-east-2"
+  }
+}

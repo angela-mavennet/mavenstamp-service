@@ -1,0 +1,51 @@
+
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "mavenstamp",
+        "app_desc": "mavenstamp",
+        "version": 1,
+        "json_indentation": 4,
+        "database": "my-app-db-dev",
+        "ACCESS_KEY": "1616b5bc-3061-47d5-b7f3-aa4f02e70541",
+        "RECAPTCHA_SECRET_KEY": "6LfdT4gUAAAAAB3cuqCAVZGEGFZBO8P2sG3D-F9U",
+        "SERVER_HOST": "http://127.0.0.1",
+        "CLIENT_HOST": "http://127.0.0.1",
+        "GO_URL": "http://api.mavenstamp.com",
+        "node_server_port": 3001,
+        "node_client_port": 3000,
+        "secret": "123"
+    },
+    "testing": {
+        "config_id": "testing",
+        "database": "my-app-db-test"
+    },
+    "staging": {
+        "config_id": "staging",
+        "database": "my-app-db-stag",
+        "RECAPTCHA_SITE_KEY": "6Lf1C4QUAAAAAKKzzNLmDsetPM8ZqMnTbvdZlEub",
+        "RECAPTCHA_SECRET_KEY": "6Lf1C4QUAAAAAHbGhXk6jSd1PiWv8nnipOHOp9-b",
+        "SERVER_HOST": "http://52.15.161.253",
+        "CLIENT_HOST": "http://52.15.161.253",
+        "GO_URL": "http://localhost:5000",
+        "node_server_port": 3001,
+        "node_client_port": 3000,
+        "social" : {
+            "google_client_secret": "Jblih0xt-wAodBrGkmcvv9M7"
+        }
+    },
+    "production": {
+        "config_id": "production",
+        "database": "my-app-db-prod",
+        "RECAPTCHA_SITE_KEY": "6LcQHYgUAAAAAI6j7nMcDxt_RnqiUJQy86f1UuvB",
+        "RECAPTCHA_SECRET_KEY": "6LcQHYgUAAAAAMXHXj4pwGtRYffH_Mh4xopV_FTf",
+        "SERVER_HOST": "service.mavenstamp.com",
+        "CLIENT_HOST": "https://www.mavenstamp.com",
+        "GO_URL": "http://api.mavenstamp.com",
+        "node_server_port": 8081,
+        "node_client_port": 8080,
+        "social" : {
+            "google_client_secret": "SEPKMkB0M5IiUup_NiTUGIld"
+        }
+    }
+}
